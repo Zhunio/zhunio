@@ -16,7 +16,7 @@ Zhunio's library for Node.js
 var zhunio = require('zhunio')
 ```
 
-The `zhunio` var is an object that contains two properties: errors, and loggers.
+The `zhunio` var is an object that contains two properties: `errors`, and `loggers`.
 
 ### zhunio.errors
 
@@ -24,7 +24,7 @@ The `zhunio` var is an object that contains two properties: errors, and loggers.
 var errors = zhunio.errors
 ```
 
-The `errors` object contains two HTTP request middleware functions: catch, and handler. The `catch` middleware function catches any HTTP request error. The `handler` middleware funtion handles any HTTP request error.
+The `errors` object contains two HTTP request middleware functions: `catch`, and `handler`. The `catch` middleware function catches any HTTP request error. The `handler` middleware funtion handles any HTTP request error.
 
 ```js
 var express = require('express')
@@ -42,7 +42,7 @@ app.use(zhunio.errors.handler)
 var loggers = zhunio.loggers
 ```
 
-The `loggers` object contains two HTTP request middleware functions: error, and access. The `error` middleware function logs any HTTP request error. The `access` middleware funtion logs any HTTP request access.
+The `loggers` object contains two HTTP request middleware functions: `error`, and `access`. The `error` middleware function logs any HTTP request error. The `access` middleware funtion logs any HTTP request access.
 
 ```js
 var express = require('express')

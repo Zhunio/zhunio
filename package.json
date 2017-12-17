@@ -1,6 +1,6 @@
 {
   "name": "zhunio",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zhunio's library",
   "main": "index.js",
   "scripts": {
